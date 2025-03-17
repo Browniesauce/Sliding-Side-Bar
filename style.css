@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.Nav-Bar{
+    background-color: #FFA725;
+    height:75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body{
+    background-color:#C1D8C3 ;
+}
+
+.Heading-Center{
+    color:#FFF5E4;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.Heading-Left{
+    padding-left: 5px;
+}
+
+.Hamburger-Menu{
+    height: 45px;
+}
+
+.Hamburger-Menu-Button{
+    height: 45px;
+    width: 65px;
+    background-color:#FFF5E4;
+    border-color: #FFA725;
+    box-shadow: none;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+    transition: background-color 0.15s , color 0.15s;
+}
+
+.Hamburger-Menu-Button:hover{
+    background-color: #FFA725;
+}
