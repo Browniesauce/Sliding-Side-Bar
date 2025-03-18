@@ -60,7 +60,7 @@ body{
     background:#FFA725;
     width: 100%;
     height: 100%;
-    transition: all 0.3s linear;
+    transition: all 0.5s linear;
     transform: translate(-100%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -97,6 +97,14 @@ body{
 
 @media (min-width: 676px) {
     .Side-Bar-Content {
-      width: 500px;
+      width: 400px;
     }
-  }
+}
+
+.items{
+    font-size: 24px;
+    padding-left: 20px;
+    list-style:none ;
+    color:#FFF5E4;
+    text-decoration: none;
+}
