@@ -73,3 +73,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media (min-width: 676px) {
+    .Side-Bar-Content {
+      width: 500px;
+    }
+  }
