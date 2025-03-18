@@ -66,4 +66,10 @@ body{
 
 .show-sidebar {
    transform: translate(0);
- }
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
